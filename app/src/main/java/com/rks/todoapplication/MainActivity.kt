@@ -86,7 +86,7 @@ fun AddNameView(
             TextField(
                 value = name,
                 onValueChange = { newName ->
-                    name = newName;
+                    name = newName
                 }, modifier = modifier
                     .weight(1f)
                     .height(55.dp)
